@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    background-color: #111111;
+    color: #ffffff;
+    font-family: "Google Sans", sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+}
+
+.hero-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #3B82F6;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 10px; 
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #002fff;
+}
+
+.btn-secondary {
+    border: 2px solid #3B82F6;
+    color: #3B82F6;
+    padding: 25px;
+    border-radius: 10px; 
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #0022ff;
+}
+
+.btn-primary,
+.btn-secondary {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.h2-hero {
+    font-size: 40px;
+    color: #3B82F6;
+}
+
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    color: #99A1AF;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 375px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-content p {
+    max-width: 500px;
+    margin: 10px;
+}
+
+.about-skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.about-skills li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1f1e1e;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.about-skills li:hover {
+    background-color: #2f2e2e;
+}
+
+.about-skills img {
+    background-color: #3B82F6;
+    padding: 7px;
+    border-radius: 8px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+
+.projects {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 750px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #1f1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-card span {
+    background-color: #3B82F6;
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.project-card a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project-card a:first-of-type {
+    background-color: #3B82F6;
+    color: #ffffff;
+}
+
+.project-card a:last-of-type {
+    border: 2px solid #3B82F6;
+    color: #3B82F6;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.techs {
+    display: flex;
+    gap: 10px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.project-buttons a:first-child {
+    flex: 1;
+}
+
+.project-buttons a:last-child {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-buttons img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-buttons a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #3B82F6;
+}
+
+.contact-buttons a:hover {
+    background-color: #1f1e1e;
+}
+
+.linha {
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+}
+
+footer {
+    border-top: 1px solid #333;
+}
+
+footer p {
+    text-align: center;
+    font-size: 13px;
+}
