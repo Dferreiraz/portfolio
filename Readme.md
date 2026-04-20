@@ -1,1 +1,62 @@
-��# portfolio
+# 💻 Portfólio - Davi Ferreira
+
+Este é o meu portfólio como desenvolvedor front-end, onde apresento meus projetos, habilidades e formas de contato.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## 🎯 Objetivo
+
+O objetivo deste projeto é demonstrar minhas habilidades em desenvolvimento web, criando interfaces modernas, responsivas e funcionais.
+
+---
+
+## 📂 Estrutura do projeto
+portfolio/
+│
+├── index.html
+├── README.md
+└── src/
+├── styles/
+├── assets/
+
+---
+
+## 📸 Preview
+
+(Coloque aqui um print do seu site depois)
+
+---
+
+## 🌐 Acesse o projeto
+
+🔗 (coloque aqui o link do seu site quando quiser divulgar)
+
+---
+
+## 📞 Contato
+
+- Instagram: dferreira.dev  
+- Email: davi2580vege@gmail.com  
+
+---
+
+## ✨ Funcionalidades
+
+- Seção de apresentação (Hero)
+- Sobre mim
+- Projetos
+- Contato direto
+
+---
+
+## 📌 Status
+
+🚧 Em desenvolvimento / Atualizações constantes
