@@ -31,13 +31,13 @@ portfolio/
 
 ## 📸 Preview
 
-(Coloque aqui um print do seu site depois)
+![Preview do site](./src/assets/img/preview-portfolio.png)
 
 ---
 
 ## 🌐 Acesse o projeto
 
-🔗 (coloque aqui o link do seu site quando quiser divulgar)
+🔗 https://dferreiraz.github.io/portfolio/
 
 ---
 
